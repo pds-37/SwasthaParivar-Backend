@@ -1,6 +1,6 @@
 // routes/members.js
 import express from "express";
-import FamilyMember from "../models/FamilyMember.js";
+import familyMember from "../models/familyMember.js";
 
 
 
@@ -33,7 +33,7 @@ router.post("/", async (req, res) => {
 
     if (!name) return res.status(400).json({ message: "Name required" });
 
-    const m = new FamilyMember({
+    const m = new familyMember({
       user: userId,
       name,
       age,
