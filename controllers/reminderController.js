@@ -1,4 +1,4 @@
-import Reminder from "../models/Reminder.js";
+import Reminder from "../models/remindermodel.js";
 import mongoose from "mongoose";
 
 /* ------------------ UTIL: COMPUTE NEXT RUN DATE ------------------ */

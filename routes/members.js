@@ -1,6 +1,7 @@
 // routes/members.js
 import express from "express";
-import FamilyMember from "../models/FamilyMember.js";
+import familymember from "../models/familymembermodel.js";
+
 
 
 
