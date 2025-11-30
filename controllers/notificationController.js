@@ -1,5 +1,5 @@
 import webpush from "web-push";
-import User from "../models/user.js";
+import User from "../models/user_temp.js";
 
 webpush.setVapidDetails(
   "mailto:you@example.com",
