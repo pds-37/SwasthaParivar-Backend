@@ -9,7 +9,7 @@ import cors from "cors";
 import "express-async-errors";
 
 import { connectDB } from "./utils/db.js";
-import authRouter from "./routes/auth.js";
+import authRouter from "./routes/authroute.js";
 import membersRouter from "./routes/members.js";
 import healthRouter from "./routes/health.js";
 import aiRoutes from "./routes/aiRoutes.js";

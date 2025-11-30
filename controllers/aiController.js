@@ -1,5 +1,5 @@
-import Reminder from "../models/reminder.js";
-import FamilyMember from "../models/familyMember.js";
+import Reminder from "../models/remindermodel.js";
+import FamilyMember from "../models/familymembermodel.js";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
