@@ -1,6 +1,6 @@
 // routes/members.js
 import express from "express";
-import familymember from "../models/familymember_temp.js";
+import familymember from "../models/familymember.js";
 
 
 

@@ -1,6 +1,6 @@
 import cron from "node-cron";
-import Reminder from "../models/reminder_temp.js";
-import User from "../models/user_temp.js";
+import Reminder from "../models/reminder.js";
+import User from "../models/user.js";
 import { sendPush } from "../controllers/notificationController.js";
 
 // Runs every minute
