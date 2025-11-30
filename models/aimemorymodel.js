@@ -1,6 +1,6 @@
 import express from "express";
 import auth from "../middleware/auth.js";
-import AIMemory from "../models/aimemory.js";
+import AIMemory from "../models/aimemorymodel.js";
 
 const router = express.Router();
 
