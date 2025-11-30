@@ -1,6 +1,6 @@
 // routes/members.js
 import express from "express";
-import familyMember from "../models/familyMember.js";
+import familymember from "../models/familymember.js";
 
 
 
@@ -12,7 +12,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   try {
     const userId = req.userId;
-    const members = await FamilyMember
+    const members = await familymember
       .find({ user: userId })
       .sort({ createdAt: -1 });
 
