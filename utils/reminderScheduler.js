@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import Reminder from "../models/reminder.js";
+import Reminder from "../models/Reminder.js";
 
 /**
  * This scheduler runs every minute (for dev) or once per day (for prod).
