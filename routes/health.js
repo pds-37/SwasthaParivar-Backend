@@ -1,5 +1,5 @@
 import express from "express";
-import HealthRecord from "../models/healthRecord.js";
+import HealthRecord from "../models/healthrecord.js";
 
 const router = express.Router();
 
